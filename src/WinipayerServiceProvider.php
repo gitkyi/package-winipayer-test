@@ -1,13 +1,14 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Winipayer\Winipayer;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use Winipayer\Winipayer\Commands\WinipayerCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class WinipayerServiceProvider extends PackageServiceProvider
 {
+
     public function configurePackage(Package $package): void
     {
         /*
@@ -16,10 +17,8 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->name('package-winipayer-test')
+            ->hasConfigFile('laravel-winipayer')
+            ->hasCommand(WinipayerCommand::class);
     }
 }
