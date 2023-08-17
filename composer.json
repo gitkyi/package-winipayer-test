@@ -1,10 +1,10 @@
 {
-    "name": "package-winipayer-test",
+    "name": "packageWinipayer",
     "description": "This is my package package-winipayer-test",
     "keywords": [
         "winipayer",
         "laravel",
-        "package-winipayer-test"
+        "packageWinipayer"
     ],
     "homepage": "https://github.com/winipayer/package-winipayer-test",
     "license": "MIT",
