@@ -20,10 +20,8 @@ We highly appreciate you sending us a postcard from your hometown, mentioning wh
 You can install the package via composer:
 
 "require": {
-
-    "php": "^7.4|^8.0",
-    "laravel": "^8.75"
-
+"php": "^7.4|^8.0",
+"laravel": "^8.75"
 }
 
 ```bash
