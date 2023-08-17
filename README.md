@@ -77,16 +77,16 @@ return [
     ->setCustomerOwner(['uuid_or_id_owner'])
     ->setStore(
         [
-            "name" => "Store",
-            "description" => "description",
-            "web_url" => "your_link_web_site",
-            "logo_url" => "link_logo_web_store",
-            "email" => "your_email",
-            "phone" => "your_number_phone",
-            "country" => "your_sigle_country",
-            "city" => "your_city",
-            "address" => "your_address",
-            "ipn_url" => "your_link/ipn.php"
+            'name' => 'Store',
+            'description' => 'description',
+            'web_url' => 'your_link_web_site',
+            'logo_url' => 'link_logo_web_store',
+            'email' => 'your_email',
+            'phone' => 'your_number_phone',
+            'country' => 'your_sigle_country',
+            'city' => 'your_city',
+            'address' => 'your_address',
+            'ipn_url' => 'your_link/ipn.php'
         ]
     )
     ->setCustomData(
