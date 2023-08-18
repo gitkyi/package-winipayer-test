@@ -1,10 +1,10 @@
 {
-    "name": "packageWinipayer",
+    "name": "winipayer/package-winipayer-test",
     "description": "This is my package package-winipayer-test",
     "keywords": [
         "winipayer",
         "laravel",
-        "packageWinipayer"
+        "package-winipayer-test"
     ],
     "homepage": "https://github.com/winipayer/package-winipayer-test",
     "license": "MIT",
@@ -67,6 +67,6 @@
             }
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
