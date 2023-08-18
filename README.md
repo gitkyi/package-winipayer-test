@@ -14,7 +14,7 @@ You can install the package via composer:
 }
 
 ```bash
-composer require packageWinipayer
+composer require winipayer/package-winipayer-test
 ```
 
 You can publish the config file with:
