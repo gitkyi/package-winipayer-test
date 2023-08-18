@@ -34,8 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Winipayer\\Winipayer\\": "src/",
-            "Winipayer\\Winipayer\\Database\\Factories\\": "database/factories/"
+            "Winipayer\\Winipayer\\": "src/"
         }
     },
     "autoload-dev": {
@@ -67,6 +66,6 @@
             }
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
