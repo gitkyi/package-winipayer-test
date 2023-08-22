@@ -8,7 +8,6 @@ use Winipayer\Winipayer\Commands\WinipayerCommand;
 
 class WinipayerServiceProvider extends PackageServiceProvider
 {
-
     public function configurePackage(Package $package): void
     {
         /*

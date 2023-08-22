@@ -3,7 +3,6 @@
 // config for Winipayer/Winipayer
 return [
 
-
     'env' => env('WINIPAYER_ENV', 'test'),
 
     'apply_key' => env('WINIPAYER_APPLY_KEY', ''),
@@ -18,6 +17,6 @@ return [
 
     'return_url' => env('WINIPAYER_RETURN_URL', ''),
 
-    'callback_url' => env('WINIPAYER_CALLBACK_URL', '')
+    'callback_url' => env('WINIPAYER_CALLBACK_URL', ''),
 
 ];
