@@ -9,8 +9,7 @@ This is where your description should go. Limit it to a paragraph or two. Consid
 You can install the package via composer:
 
 "require": {
-"php": "^7.4|^8.0",
-"laravel": "^8.75"
+"php": "^7.4|^8.0"
 }
 
 ```bash
