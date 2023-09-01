@@ -3,7 +3,6 @@
     "description": "This is my package package-winipayer-test",
     "keywords": [
         "winipayer",
-        "laravel",
         "package-winipayer-test"
     ],
     "homepage": "https://github.com/winipayer/package-winipayer-test",
